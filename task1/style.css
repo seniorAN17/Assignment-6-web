@@ -1,0 +1,121 @@
+/* Task 1 - simple styles */
+body {
+  font-family: Arial;
+  background: #f5f0e8;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+button {
+  margin: 2px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+#result {
+  font-weight: bold;
+  min-height: 20px;
+}
+
+#house {
+  border: 5px solid brown;
+  background: white;
+}
+
+.floor {
+  display: flex;
+  border-bottom: 3px solid brown;
+}
+
+.label {
+  background: #e5cdb0;
+  padding: 4px;
+  font-size: 12px;
+  width: 50px;
+}
+
+.room {
+  position: relative;
+  flex: 1;
+  padding: 6px;
+  border-left: 3px solid brown;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room h3 {
+  margin: 2px;
+  font-size: 15px;
+}
+
+.guests {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.guest {
+  position: relative;
+  width: 66px;
+  margin: 2px 3px;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 11px;
+}
+
+.guest img {
+  width: 44px;
+  height: 44px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+}
+
+.guest small {
+  display: block;
+  color: gray;
+}
+
+.c-red img {
+  border-color: red;
+}
+
+.c-blue img {
+  border-color: blue;
+}
+
+.c-green img {
+  border-color: green;
+}
+
+.c-black img {
+  border-color: black;
+}
+
+.c-yellow img {
+  border-color: gold;
+}
+
+.c-purple img {
+  border-color: purple;
+}
+
+.hit {
+  background: yellow;
+}
