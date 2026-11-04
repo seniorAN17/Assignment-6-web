@@ -67,7 +67,7 @@ function createCard(guest) {
   if (guest.aitu) {
     card.addClass('aitu');
   }
-  for (var i = 0; i < guest.things.length; i++) {
+  for (var i = 0; i < guest.things.length; i++) { // add a class for every thing
     card.addClass(guest.things[i]);
   }
 
@@ -146,7 +146,7 @@ function buildPage() {
    Task 1, step 4: the 20 cases.
    Every case is ONE jQuery chain that searches the page.
    */
-  
+
   /* This is a jQuery chain:
    $('#hall .guest'); firts find a hall and then find a guest inside it and return it. */
 
