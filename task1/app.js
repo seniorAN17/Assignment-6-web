@@ -146,6 +146,9 @@ function buildPage() {
    Task 1, step 4: the 20 cases.
    Every case is ONE jQuery chain that searches the page.
    */
+  
+  /* This is a jQuery chain:
+   $('#hall .guest'); firts find a hall and then find a guest inside it and return it. */
 
 var cases = [
   // 1. Who is in the hall?
