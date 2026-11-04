@@ -68,7 +68,7 @@ function createCard(guest) {
     card.addClass('aitu');
   }
   for (var i = 0; i < guest.things.length; i++) { // add a class for every thing
-    card.addClass(guest.things[i]);
+    card.addClass(guest.things[i]); // things[i] gets index of thing then addClass create a class for that thing
   }
 
   // data-* attributes
