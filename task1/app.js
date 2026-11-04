@@ -226,6 +226,8 @@ var cases = [
   },
 
   // 9. Who stands right next to Askar? (siblings that stand right before or after him)
+  // siblings() takes all siblings of Askar(element), except Askar himself
+  //  and then filter() takes only those that have Askar right before or right after them
   {
     title: 'Who stands right next to Askar?',
     find: function () {
