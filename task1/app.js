@@ -148,7 +148,7 @@ function buildPage() {
    */
 
   /* This is a jQuery chain:
-   $('#hall .guest'); firts find a hall and then find a guest inside it and return it. */
+   $('#hall .guest'); first find a hall and then find a guest inside it and return it. */
 
 var cases = [
   // 1. Who is in the hall?
